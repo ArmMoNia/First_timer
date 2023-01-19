@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#date {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+#time {
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+
+.watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(144, 160, 238);
+  border-radius: 30px;
+}
